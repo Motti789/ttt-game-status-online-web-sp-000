@@ -22,12 +22,7 @@ def won?(board)
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
   win_index_3 = win_combination[2]
-  win_index_4 = win_combination[3]
-  win_index_5 = win_combination[4]
-  win_index_6 = win_combination[5]
-  win_index_7 = win_combination[6]
-  win_index_8 = win_combination[7]
-  win_index_9 = win_combination[8]
+
 
 
 
@@ -42,6 +37,7 @@ def won?(board)
     false
   end
 }
+<<<<<<< HEAD
 end
 
 def full?(board)
@@ -60,4 +56,6 @@ def winner(board)
   if winning_combo = won?(board)
     board[winning_combo.first]
   end
+=======
+>>>>>>> 4c8efc79991c8f3b35172a3d14ebf94dfc444594
 end
