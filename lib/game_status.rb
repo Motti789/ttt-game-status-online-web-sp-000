@@ -37,7 +37,6 @@ def won?(board)
     false
   end
 }
-<<<<<<< HEAD
 end
 
 def full?(board)
