@@ -56,6 +56,4 @@ def winner(board)
   if winning_combo = won?(board)
     board[winning_combo.first]
   end
-=======
->>>>>>> 4c8efc79991c8f3b35172a3d14ebf94dfc444594
 end
